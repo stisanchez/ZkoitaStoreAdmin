@@ -7,6 +7,12 @@ Construido con React 19.1, PrimeReact, React Router DOM, Chart.js y Vite como bu
 
 ## Dependencias
 
+Requiere previamente haber descargado el proyecto del cliente y ejecutar en json-server que se encuentra en ahi con la siguiente instruccion
+
+https://github.com/stisanchez/CarritoComprasReact.
+
+json-server --watch db.json.
+
 ## bash
 npm install react@^19.1.0 react-dom@^19.1.0 react-router-dom@^7.7.0 primereact@^10.9.6 primeicons@^7.0.0 classnames@^2.5.1 chart.js@^4.5.0 react-chartjs-2@^5.3.0
 

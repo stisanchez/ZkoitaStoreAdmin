@@ -1,6 +1,6 @@
 // src/components/Layout.jsx
 import { NavLink, Outlet, useNavigate } from 'react-router-dom';
-import './Layout.css';
+import '../style/Layout.css';
 
 export default function Layout() {
     const navigate = useNavigate();

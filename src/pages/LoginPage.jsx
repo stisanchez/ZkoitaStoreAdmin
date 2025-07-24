@@ -1,6 +1,6 @@
 // src/pages/LoginPage.jsx
 import LoginForm from '../components/LoginForm';
-import './LoginPage.css';
+import '../style/LoginPage.css';
 
 export default function LoginPage() {
   return (
