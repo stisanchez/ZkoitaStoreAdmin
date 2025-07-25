@@ -82,7 +82,6 @@ export default function ProductsPage() {
     const rating = Number((Math.random() * 5).toFixed(2)); // 0 a 5
 
     if (isEdit) {
-      // Actualizar producto con PUT
       const productToUpdate = {
         ...product,
         discountPercentage,
@@ -107,7 +106,6 @@ export default function ProductsPage() {
         toast.current.show({ severity: 'error', summary: 'Error', detail: error.message, life: 3000 });
       }
     } else {
-      // Crear producto nuevo con POST
       const newId = products.length > 0 ? Math.max(...products.map(p => Number(p.id))) + 1 : 1;
 
       const productToSave = {

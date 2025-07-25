@@ -36,7 +36,7 @@ export default function LoginForm() {
 
         setTimeout(() => {
           navigate('/dashboard');
-        }, 1500);
+        }, 1000);
       } else {
         toast.current.show({
           severity: 'error',
